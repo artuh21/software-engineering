@@ -9,4 +9,5 @@ This repository contains projects focused on software design, architecture, and 
 
 ## Purpose
 To apply software engineering principles in real-world scenarios, emphasizing maintainability and scalability.
+
 ---
