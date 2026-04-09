@@ -1,0 +1,16 @@
+-Projeto: 5000 PF
+
+-Analista: 30/h
+-Programador: 25/h
+-Projetista: 40/h
+
+-Produtividade: 6h/PF
+
+-Análise 15% -> 750 PF -> 4500 h -> 135000 reais
+-Projeto 5% -> 250 PF -> 1500 h -> 60000 reais
+-Implementação 60% PF -> 3000 -> 18000 h -> 450000 reais
+-Teste 15% -> 750 PF -> 4500 h -> 112500 reais
+-Implantação 5% PF -> 250 -> 1500 h -> 37500 reais
+
+-Total de horas: 29.800 horas
+-Custo total: 795.000 reais

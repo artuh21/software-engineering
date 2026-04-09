@@ -1,0 +1,53 @@
+a) public class A implements I1, I2 {
+
+
+    private int x;
+    private String y;
+
+    public A() {
+        // Construtor padrão
+    }
+
+    public A(int x, String y) {
+        // Construtor com parâmetros
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public void op1() {
+        // Implementação da operação op1()
+    }
+
+    @Override
+    public void op2() {
+        // Implementação da operação op2()
+    }
+
+}.
+
+b) public class H extends D {
+
+
+    private int z;
+
+    public H() {
+        // Construtor padrão
+    }
+
+    public H(int x, String y, int z) {
+        // Construtor com parâmetros
+        super(x, y);
+        this.z = z;
+    }
+
+    @Override
+    public void op8() {
+        // Implementação da operação op8()
+        System.out.println("Chamando Op8() de D");
+    }
+
+}
+c) Sim, o objeto H pode chamar (direta ou indiretamente) a operação Op8() da classe D. Isso ocorre porque a classe H herda da classe D, que implementa a operação Op8(). Portanto, o objeto H pode chamar diretamente a operação Op8() da classe D.
+
+Uma forma indireta de chamar a operação Op8() da classe D seria criar um objeto da classe D e passar esse objeto como parâmetro para uma operação da classe H. 
